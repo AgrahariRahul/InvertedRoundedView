@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InvertedRoundedView">
+        <attr name="strokeColor" format="color" />
+        <attr name="radious" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="backGround" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InvertedRoundedView</string>
+
+    <string-array name="brorderwidthstringarray">
+        <item>5dp</item>
+        <item>10dp</item>
+        <item>15dp</item>
+    </string-array>
+
+    <string-array name="cornerradiousstringarray">
+        <item>25dp</item>
+        <item>30dp</item>
+        <item>35dp</item>
+    </string-array>
+</resources>

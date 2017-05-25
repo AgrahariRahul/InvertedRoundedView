@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="brorderwidtharray">
+        <item>@dimen/space_five</item>
+        <item>@dimen/space_ten</item>
+        <item>@dimen/space_fifteen</item>
+    </integer-array>
+
+    <integer-array name="cornerradiousarray">
+        <item>@dimen/space_twentyfive</item>
+        <item>@dimen/space_thirty</item>
+        <item>@dimen/space_thirtyfive</item>
+    </integer-array>
+</resources>
+

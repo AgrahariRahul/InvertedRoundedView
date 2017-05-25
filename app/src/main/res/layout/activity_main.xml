@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000ff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rahul.agrahari.invertedroundedview.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <GridView
+            android:id="@+id/gridStroke"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:horizontalSpacing="3dp"
+            android:listSelector="@android:color/black"
+            android:numColumns="4"
+            android:verticalSpacing="3dp" />
+
+        <GridView
+            android:id="@+id/gridBg"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:horizontalSpacing="5dp"
+            android:listSelector="@android:color/black"
+            android:numColumns="4"
+            android:verticalSpacing="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <Spinner
+                android:id="@+id/spincornerradius"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:entries="@array/cornerradiousstringarray" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+
+            <Spinner
+                android:id="@+id/spinstrokewidth"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:entries="@array/brorderwidthstringarray" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <rahul.agrahari.invertedroundedview.InvertedLinearLayout
+        android:id="@+id/invertedLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearColor"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:backGround="@color/color2"
+        app:radious="20dp"
+        android:padding="40dp"
+        app:strokeColor="@color/color1"
+        app:strokeWidth="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="14sp" />
+
+
+    </rahul.agrahari.invertedroundedview.InvertedLinearLayout>
+
+
+</RelativeLayout>
