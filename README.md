@@ -15,4 +15,4 @@
 				app:strokeWidth="gives border width">
 				
 				
-				![Screenshot](https://github.com/AgrahariRahul/InvertedRoundedView/blob/master/screenshot_2.png)
+				![screenshot_2](https://cloud.githubusercontent.com/assets/22372164/26466146/4a841942-41ab-11e7-923a-191e81cde4d2.png)
