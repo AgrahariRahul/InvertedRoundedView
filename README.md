@@ -13,3 +13,6 @@
 				android:padding="gives padding for child view"
 				app:strokeColor="gives color resource id"
 				app:strokeWidth="gives border width">
+				
+				
+				![Screenshot](https://github.com/AgrahariRahul/InvertedRoundedView/blob/master/screenshot_2.png)
