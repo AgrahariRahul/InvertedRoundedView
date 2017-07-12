@@ -17,6 +17,6 @@
 				
 	call invertedLinearLayout.setBackground("gives color resource id) for set layout background
 
-   ![](screenshot_1.png)
+   ![](screenshot_2.png)
 				
 				
