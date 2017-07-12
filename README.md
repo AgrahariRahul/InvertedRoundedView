@@ -1,4 +1,4 @@
-## InvertedRoundedView
+]## InvertedRoundedView
 
         This custom linear layout makes inverted rounded corner layout.
 		
@@ -16,6 +16,7 @@
 				
 				
 	call invertedLinearLayout.setBackground("gives color resource id) for set layout background
-				
+
+   ![](screenshot_1.png)
 				
 				
